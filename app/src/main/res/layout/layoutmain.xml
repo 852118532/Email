@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="发件箱"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button_send" />
+
+    <Button
+        android:text="收件箱"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_send"
+        android:layout_alignRight="@+id/button_send"
+        android:layout_alignEnd="@+id/button_send"
+        android:layout_marginTop="38dp"
+        android:id="@+id/button_recive" />
+</RelativeLayout>
